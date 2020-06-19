@@ -103,7 +103,7 @@ COPY 10-listen-on-ipv6-by-default.sh /docker-entrypoint.d
 COPY 20-envsubst-on-templates.sh /docker-entrypoint.d
 ENTRYPOINT ["/docker-entrypoint.sh"]
 
-EXPOSE 8080
+EXPOSE 80
 
 STOPSIGNAL SIGTERM
 
